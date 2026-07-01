@@ -45,7 +45,7 @@ export function Navigation() {
       )}
     >
       <nav
-        className="mx-auto flex h-16 max-w-[1200px] items-center px-5 sm:h-[4.5rem] sm:px-8"
+        className="mx-auto flex h-16 max-w-[1200px] items-center justify-between px-5 sm:h-[4.5rem] sm:px-8"
         aria-label="Primary"
       >
         <a
@@ -69,7 +69,7 @@ export function Navigation() {
           ))}
         </ul>
 
-        <div className="flex flex-1 items-center justify-end gap-2 sm:gap-3 lg:gap-6">
+        <div className="flex items-center gap-2 sm:gap-3 lg:flex-1 lg:justify-end lg:gap-6">
           {/* Mobile/tablet: icon link + plain number. Desktop: plain number only, no icon, not clickable. */}
           <a
             href="tel:+14805550197"
